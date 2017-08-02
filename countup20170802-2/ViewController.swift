@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         num = num + 1
 
         if num > 10 {
-            label.textColor = UIColor.red
+            label.textColor = UIColor.green
         }
         
         label.text = String(num)
